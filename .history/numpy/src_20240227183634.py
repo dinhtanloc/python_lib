@@ -77,13 +77,6 @@ idx_max = np.argmax(arr1)
 # Trích xuất các phần tử thỏa mãn điều kiện từ một mảng
 extracted = np.extract(arr1 > 3, arr1)
 
-# Sắp xếp mảng theo thứ tự tăng dần
-sorted_arr = np.sort(arr1)
-
-# Tìm chỉ số của các phần tử sau khi sắp xếp
-sorted_indices = np.argsort(arr1)
-
-
 
 # Chuyển vị của một ma trận
 transpose_matrix = np.transpose(matrix)
@@ -93,14 +86,3 @@ inverse_matrix = np.linalg.inv(matrix)
 
 # Tính định thức của một ma trận
 determinant = np.linalg.det(matrix)
-
-# Tính giá trị và vector riêng của ma trận
-eigenvalues, eigenvectors = np.linalg.eig(matrix)
-
-# Giải hệ phương trình tuyến tính Ax = b
-matrix_A = [
-    []
-]
-vector_b= [1,2,3]
-solution = np.linalg.solve(matrix_A, vector_b)
-

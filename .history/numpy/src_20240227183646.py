@@ -93,14 +93,3 @@ inverse_matrix = np.linalg.inv(matrix)
 
 # Tính định thức của một ma trận
 determinant = np.linalg.det(matrix)
-
-# Tính giá trị và vector riêng của ma trận
-eigenvalues, eigenvectors = np.linalg.eig(matrix)
-
-# Giải hệ phương trình tuyến tính Ax = b
-matrix_A = [
-    []
-]
-vector_b= [1,2,3]
-solution = np.linalg.solve(matrix_A, vector_b)
-

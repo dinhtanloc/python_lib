@@ -1,10 +1,4 @@
 import numpy as np
-matrix = [
-    [1,2,30],
-    [1,2,30],
-    [1,2,30],
-    [1,2,30],
-]
 
 # Tạo một mảng từ danh sách
 arr1 = np.array([1, 2, 3, 4, 5])
@@ -63,13 +57,6 @@ greater_than_3 = arr1[arr1 > 3]
 # Kiểm tra xem tất cả các phần tử có lớn hơn 0 không
 all_positive = np.all(arr1 > 0)
 
-# Kiểm tra xem có phần tử nào lớn hơn 3 không
-any_greater_than_3 = np.any(arr1 > 3)
-
-# Kiểm tra xem tất cả các phần tử có nhỏ hơn 10 không
-all_less_than_10 = np.all(arr1 < 10)
-
-
 
 # Tìm chỉ số của phần tử lớn nhất trong mảng
 idx_max = np.argmax(arr1)
@@ -77,14 +64,13 @@ idx_max = np.argmax(arr1)
 # Trích xuất các phần tử thỏa mãn điều kiện từ một mảng
 extracted = np.extract(arr1 > 3, arr1)
 
-# Sắp xếp mảng theo thứ tự tăng dần
-sorted_arr = np.sort(arr1)
 
-# Tìm chỉ số của các phần tử sau khi sắp xếp
-sorted_indices = np.argsort(arr1)
-
-
-
+matrix = [
+    [1,2,30],
+    [1,2,30],
+    [1,2,30],
+    [1,2,30],
+]
 # Chuyển vị của một ma trận
 transpose_matrix = np.transpose(matrix)
 
@@ -93,14 +79,3 @@ inverse_matrix = np.linalg.inv(matrix)
 
 # Tính định thức của một ma trận
 determinant = np.linalg.det(matrix)
-
-# Tính giá trị và vector riêng của ma trận
-eigenvalues, eigenvectors = np.linalg.eig(matrix)
-
-# Giải hệ phương trình tuyến tính Ax = b
-matrix_A = [
-    []
-]
-vector_b= [1,2,3]
-solution = np.linalg.solve(matrix_A, vector_b)
-

@@ -1,0 +1,57 @@
+1. **Tạo mảng**:
+   - `numpy.array`
+   - `numpy.zeros`
+   - `numpy.ones`
+   - `numpy.empty`
+   - `numpy.arange`
+   - `numpy.linspace`
+   - `numpy.random.rand`
+   - `numpy.random.randn`
+
+2. **Thao tác trên mảng**:
+   - `numpy.reshape`
+   - `numpy.concatenate`
+   - `numpy.split`
+   - `numpy.vstack`
+   - `numpy.hstack`
+   - `numpy.append`
+   - `numpy.delete`
+
+3. **Thao tác toán học và thống kê**:
+   - `numpy.sum`
+   - `numpy.mean`
+   - `numpy.median`
+   - `numpy.std`
+   - `numpy.var`
+   - `numpy.min`
+   - `numpy.max`
+   - `numpy.absolute`
+   - `numpy.power`
+   - `numpy.exp`
+   - `numpy.log`
+   - `numpy.sqrt`
+   - `numpy.dot`
+   - `numpy.matmul`
+
+4. **Thao tác trên mảng Boolean**:
+   - `numpy.logical_and`
+   - `numpy.logical_or`
+   - `numpy.logical_not`
+   - `numpy.all`
+   - `numpy.any`
+
+5. **Thao tác trên chỉ số mảng**:
+   - `numpy.argmax`
+   - `numpy.argmin`
+   - `numpy.argsort`
+   - `numpy.where`
+   - `numpy.extract`
+
+6. **Thao tác với ma trận**:
+   - `numpy.transpose`
+   - `numpy.linalg.inv`
+   - `numpy.linalg.det`
+   - `numpy.linalg.eig`
+   - `numpy.linalg.solve`
+
+Đây chỉ là một số hàm cơ bản và không bao gồm tất cả các hàm trong NumPy. NumPy còn nhiều hàm khác nữa để xử lý mảng, ma trận, và các phép toán số học.

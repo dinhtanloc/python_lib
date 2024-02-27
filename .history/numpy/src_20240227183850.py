@@ -101,6 +101,6 @@ eigenvalues, eigenvectors = np.linalg.eig(matrix)
 matrix_A = [
     []
 ]
-vector_b= [1,2,3]
+vecto_b= [1,2,3]
 solution = np.linalg.solve(matrix_A, vector_b)
 
